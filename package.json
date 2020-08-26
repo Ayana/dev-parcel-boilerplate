@@ -15,7 +15,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "parcel serve ./src/index.html",
-		"build": "parcel build ./src/index.html"
+		"build": "parcel build ./src/index.html --public-url ./" //Set to relative path
 	},
 	"keywords": [],
 	"author": "",
