@@ -1,3 +1,4 @@
 export default function () {
-	console.log('Hello')
+	const greeting = document.querySelector('.greeting')
+	greeting.textContent = 'Hello'
 }
