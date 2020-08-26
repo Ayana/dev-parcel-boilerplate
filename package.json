@@ -2,19 +2,29 @@
 	"name": "dev-parcel-boilerplate",
 	"version": "1.0.0",
 	"description": "",
+	"pwaManifest": {
+		"name": "Project Name",
+		"shortName": "Name",
+		"startURL": "/",
+		"theme": "#ddd",
+		"generateIconOptions": {
+			"baseIcon": "./src/images/favicons/favicon.png",
+			"genFavicons": false
+		}
+	},
 	"main": "index.js",
 	"scripts": {
-		"dev": "parcel src/index.html",
-		"build": "parcel src/build index.html"
+		"start": "parcel serve ./src/index.html",
+		"build": "parcel build ./src/index.html"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"normalize-scss": "^7.0.1",
+		"parcel": "^2.0.0-beta.1",
 		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-pwa-manifest": "^3.0.10",
 		"sass": "^1.26.10"
-	},
-	"dependencies": {
-		"normalize-scss": "^7.0.1"
 	}
 }

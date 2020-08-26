@@ -6,12 +6,15 @@ Develop: `npm run develop`
 
 ### Reset
 
-<a href="https://necolas.github.io/normalize.css/">Normalize.css</a>
+- <a href="https://necolas.github.io/normalize.css/">Normalize.css</a>
+- reset.css (own created)
 
-reset.css (own created)
-
-### Mixin & Variables
+### Variables
 
 - Typography
-- Media Query
+- Breakpoints
 - Color
+
+### Mixin
+
+- Media Query
