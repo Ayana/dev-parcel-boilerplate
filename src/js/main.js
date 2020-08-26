@@ -4,3 +4,5 @@ import ieFixedPolyfill from '../utils/ieFixedPolyfill'
 import func from './func'
 
 func()
+setViewport()
+ieFixedPolyfill()
