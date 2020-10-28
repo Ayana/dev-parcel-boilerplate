@@ -1,8 +1,8 @@
 # Parcel Boilerplate
 
-This is my simple boilerplate using <a href="https://v2.parceljs.org/">Parcel2</a> with basic scss and some utils.
+Simple boilerplate using <a href="https://v2.parceljs.org/">Parcel2</a> with basic scss and some utils.
 
-Develop: `npm run start`
+Develop: `npm run start`<br/>
 Build: `npm run build`
 
 ### Reset
